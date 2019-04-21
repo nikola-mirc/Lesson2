@@ -32,6 +32,8 @@ public class PentagonCrazy {
 			bb8.turn(angle);
 			// 11. Turn the robot one more degree
 			bb8.turn(angle + 1);
+			bb8.setRandomPenColor();
+			bb8.setPenWidth(50);
 		}
 	}
 
